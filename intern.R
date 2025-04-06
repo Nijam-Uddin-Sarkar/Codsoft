@@ -1,3 +1,4 @@
+#####Task-1
 # Load necessary libraries
 library(tidyverse)
 library(caret)
@@ -59,7 +60,7 @@ tree_conf_mat <- confusionMatrix(tree_pred, testData$Survived)
 print("Classification Tree Confusion Matrix:")
 print(tree_conf_mat)
 
-#####Task-2
+#####Task-3
 
 # Load necessary libraries
 library(tidyverse)
@@ -108,7 +109,7 @@ tree_conf_mat <- confusionMatrix(tree_pred, testData$Species)
 print("Decision Tree Confusion Matrix:")
 print(tree_conf_mat)
 
-
+#####Task-5
 # Load necessary libraries
 library(caret)          # For data splitting and model evaluation
 library(ggplot2)        # For visualization (if needed)
